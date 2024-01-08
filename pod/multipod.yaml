@@ -8,3 +8,4 @@ spec:
       image: nginx:latest
     - name: nginx2
       image: nginx:latest
+      command: ["sleep","300"]
