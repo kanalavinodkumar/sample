@@ -1,0 +1,13 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: env
+spec:
+  containers:
+    - name: env-pod
+      image: nginx
+      env:
+        - name: Dev
+          value: Vinod
+        - name: Technology
+          value: Kubernetes
