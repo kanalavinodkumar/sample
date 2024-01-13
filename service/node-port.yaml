@@ -1,0 +1,14 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: NodePort
+
+spec:
+  type: NodePort
+  selector:
+    DEV: VINOD
+  ports:
+    - name: http
+      protocol: TCP
+      port: 80
+      targetPort: 80
