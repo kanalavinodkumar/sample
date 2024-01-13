@@ -1,0 +1,11 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: debug
+  labels:
+    DEV: VINOD
+spec:
+  containers:
+    - name: almalinux
+      image: almalinux:latest
+      command: ["sleep","20000"]
