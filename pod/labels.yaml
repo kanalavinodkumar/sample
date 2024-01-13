@@ -3,8 +3,7 @@ apiVersion: v1
 metadata:
   name: sample-pod
   labels:
-    - name: DEV
-      value: VINOD
+    DEV: VINOD
 spec:
   containers:
     - image: nginx:latest
